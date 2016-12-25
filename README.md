@@ -1,3 +1,3 @@
 # tuhinitsme.github.io
-Portfolio page
-Personal page .
+My portfolio page
+to show some of my work   .
