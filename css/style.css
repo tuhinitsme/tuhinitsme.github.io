@@ -74,7 +74,7 @@ em { color: var(--coral); font-family: var(--serif); font-style: italic; font-we
 .project-image { position: relative; display: grid; place-items: center; min-height: 290px; overflow: hidden; }
 .project-image img { width: 62%; max-height: 165px; object-fit: contain; transition: transform .5s cubic-bezier(.2,.8,.2,1); }
 .project-image:hover img, .project-image:focus-visible img { transform: scale(1.07); }
-.image-sage { background: #b7c69d; }.image-coral { background: var(--coral); }.image-blue { background: var(--blue); }.image-yellow { background: var(--yellow); }.image-lilac { background: var(--lilac); }.image-orange { background: var(--orange); }
+.image-sage { background: #b7c69d; }.image-coral { background: var(--coral); }.image-blue { background: var(--blue); }.image-yellow { background: var(--yellow); }.image-lilac { background: var(--lilac); }.image-orange { background: var(--orange); }.project-placeholder { color: var(--ink); font: 500 3rem var(--mono); letter-spacing: -.08em; }.project-placeholder span { color: var(--coral); }
 .project-arrow { position: absolute; top: 18px; right: 18px; display: grid; place-items: center; width: 42px; height: 42px; background: var(--paper); border-radius: 50%; font-size: 1.3rem; }
 .project-meta { display: flex; justify-content: space-between; gap: 20px; border-bottom: 1px solid var(--line); margin-top: 17px; padding-bottom: 9px; color: var(--muted); }
 .project-card h3 { margin: 16px 0 3px; font-size: 1.45rem; letter-spacing: -.03em; }
