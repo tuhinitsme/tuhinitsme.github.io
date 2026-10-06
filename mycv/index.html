@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CV and Resume of Mehedi Hasan Tuhin">
+  <meta name="author" content="Mehedi Hasan Tuhin">
+  <title>My CV | Mehedi Hasan Tuhin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px 0;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #132233;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+    }
+
+    .nav-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #004999;
+    }
+
+    .cv-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .cv-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .cv-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .cv-card-header {
+      padding: 20px;
+      background: linear-gradient(135deg, #132233 0%, #1a3a4a 100%);
+      color: white;
+    }
+
+    .cv-card-header h2 {
+      font-size: 1.4rem;
+      margin-bottom: 5px;
+    }
+
+    .cv-card-header p {
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    .cv-card-body {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .pdf-info {
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .pdf-info strong {
+      color: #333;
+    }
+
+    .cv-links {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .btn-primary {
+      background: #0066cc;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #004999;
+    }
+
+    .btn-secondary {
+      background: #e0e0e0;
+      color: #333;
+    }
+
+    .btn-secondary:hover {
+      background: #d0d0d0;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .back-link:hover {
+      color: #004999;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .cv-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-links {
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../" class="back-link">← Back to profile</a>
+
+    <header>
+      <h1>My CV</h1>
+      <p class="subtitle">Professional background and experience</p>
+    </header>
+
+    <div class="cv-grid">
+      <div class="cv-card">
+        <div class="cv-card-header">
+          <h2>IT CV</h2>
+          <p>Comprehensive IT Background</p>
+        </div>
+        <div class="cv-card-body">
+          <div class="pdf-info">
+            <strong>File:</strong> Mehedi_Hasan_Tuhin_IT_da.pdf<br>
+            <strong>Size:</strong> ~275 KB
+          </div>
+          <div class="cv-links">
+            <a href="Mehedi_Hasan_Tuhin_IT_da.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View PDF</a>
+            <a href="Mehedi_Hasan_Tuhin_IT_da.pdf" class="btn btn-secondary" download>Download</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-card">
+        <div class="cv-card-header">
+          <h2>Professional CV</h2>
+          <p>Resume and Credentials</p>
+        </div>
+        <div class="cv-card-body">
+          <div class="pdf-info">
+            <strong>File:</strong> Mehedi_Hasan_Tuhin_MR_CV.pdf<br>
+            <strong>Size:</strong> ~361 KB
+          </div>
+          <div class="cv-links">
+            <a href="Mehedi_Hasan_Tuhin_MR_CV.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View PDF</a>
+            <a href="Mehedi_Hasan_Tuhin_MR_CV.pdf" class="btn btn-secondary" download>Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Mehedi Hasan Tuhin. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
